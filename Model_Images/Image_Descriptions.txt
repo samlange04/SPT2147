@@ -1,0 +1,18 @@
+This file contains details of what is denoted on images included in these folders.
+
+Units
+-- Important units note: deflections and potential have an incorrect unit on the colorbar. The correct unit should be ...
+-- Data signal is in MJy/Sr -  that is 10^6 Jansky per Steradian.
+-- x/y positions are given in arcseconds.
+
+Lenses
+-- SPT2147-50: Source Redshift = 3.7602, Lens Redshift = 0.845
+-- SPT0418-47: Source Redshift = 4.2248, Lens Redshift = 0.263
+
+Visual Aids
+-- 'x' and '+' symbols mark the centres of mass and light profiles respectively.
+    Most of these are therefore at the origin. Those which are not denote the position of the fit subhalo (in SPT2147).
+-- Black lines drawn around the lens onto e.g. model images are the lensing critical curves.
+-- The outer circular border of the image is the mask we apply to reduce the number of pixels being ray-traced (smaller mask = faster runtime).
+    The radius of this mask for SPT2147 is 2.6" (centred on (0.2, 0.0)), and for SPT0418 is 3.0" (centred on (0.0, 0.0)).
+
